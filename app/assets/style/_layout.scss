@@ -1,0 +1,58 @@
+// header
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $mp-3 0;
+    border-bottom: 1px solid $bg-black;
+    font-family: $secondary-ffamily;
+    h1 {
+        margin-left: $mp-5;
+        // 寫一下logo的連結
+        img {
+            width: 112px;
+            height: $mp-5;
+        }
+    }
+    .nav {
+        display: flex;
+        li {
+            margin-right: $mp-5;
+            font-weight: $fw-normal;
+            font-size: 24px;
+            line-height: 24px;
+            a {
+                color: $primary-text;
+            }
+        }
+    }
+}
+
+
+// footer
+.footer {
+    font-family: $secondary-ffamily;
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $mp-3 $mp-5;
+        background-color: $bg-grey;
+        .footer-nav {
+            display: flex;
+            a {
+                color: $primary-text;
+                margin-right: $mp-5;
+                font-weight: $fw-bold;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        // 這邊置中怪怪的!!!!!!!!
+        p {
+            color: $secondary-text;
+            text-align: center;
+        }
+    }
+}

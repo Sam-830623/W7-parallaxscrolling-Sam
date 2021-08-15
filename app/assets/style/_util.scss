@@ -1,0 +1,39 @@
+// logo
+h1{
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 72px;
+}
+
+// line-height 有些不是幾px
+h3 {
+    font-size: 48px;
+    font-style: $font-italic;
+    font-weight: 800;
+}
+
+// 小標題
+h4 {
+    font-size: 24px;
+    font-style: $font-italic;
+    font-weight: $fw-bold;
+}
+
+h5 {
+    font-size: 96px;
+    line-height: 128px;
+    font-style: $font-italic;
+    font-weight: $fw-bold;
+}
+
+
+// 這邊有點忘記要記得!!!!!!!
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
